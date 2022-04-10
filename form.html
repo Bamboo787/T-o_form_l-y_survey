@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<form action="" method="get">
+    <h1>Market Research Survey</h1>
+    <p>Please take a few moments to complete this satisfaction survey.</p>
+    <h4>What is your age range?</h4><br>
+    <select name="age">
+        <option style = rows="20" >18-24</option>
+    </select>
+    <h4>What is your ayearly income range?</h4><br>
+    <select name="money">
+        <option>$0 - $25,000</option>
+    </select>
+    <fieldset>
+        <legend><h2 style="background-color: orange;">Gender Indentily</h2>
+            <input type="radio" name="radio"> Male <br>
+            <input type="radio" name="radio"> Female <br>
+            <input type="radio" name="radio"> Nonbinary <br>
+            <input type="radio" name="radio"> Other <br>
+        </legend>
+    </fieldset>
+    <br>
+    <input type="text">
+    <h4>Which of the following products have your purchased in the last 2 months. Please check all that apply.</h4>
+    <br>
+    <input type="checkbox"> Product 1 <br>
+    <input type="checkbox"> Product 2 <br>
+    <input type="checkbox"> Product 3 <br>
+    <h4>How often would you use our new product?</h4>
+    <input type="radio" name="rd"> Daily
+    <input type="radio" name="rd"> Weekly
+    <input type="radio" name="rd"> Monthly
+    <br>
+    <h4>
+        What would you pay for the new product?
+    </h4>
+    <br>
+    <tr>
+        <td>$<input type="number" name="number" aria-rowspan="5">.<input type="number" name="number"></td><br>
+    </tr>
+    <tr colspan="2">
+        <td>Dollars</td>    
+        <td>Cents</td>
+    </tr>
+    <br>
+    <h4>what would you pay for the new product?</h4><br>
+    <textarea name="features" cols="50" rows="10"></textarea>
+    <p>Please rate yourlevel of agreement with the following statemnets.</p>
+    <table border="1">
+        <tr style="background-color: gray;">
+            <td></td>
+            <th>Strongly</th>
+            <th>Disagree</th>
+            <th>Agree</th>
+            <th>Strongly Agree</th>
+        </tr>
+        <tr>
+            <td>Our products are priced fairly.</td>
+            <td style="text-align: center;">
+                <input type="radio" name="rd"><br>1
+            </td>
+            <td style="text-align: center;">
+                <input type="radio" name="rd"><br>2
+            </td style="text-align: center;">
+            <td style="text-align: center;">
+                <input type="radio" name="rd"><br>3
+            </td>   
+            <td style="text-align: center;">
+                <input type="radio" name="rd"><br>4
+            </td>
+        </tr>
+        <tr style="background-color: gray;">
+            <td> Our products are high quality.</td>
+            <td style="text-align: center;">
+                <input style="text-align: center;" type="radio" name="rd"><br>1
+            </td>
+            <td style="text-align: center;">
+                <input style="text-align: center;" type="radio" name="rd"><br>2
+            </td>
+            <td style="text-align: center;">
+                <input style="text-align: center;" type="radio" name="rd"><br>3
+            </td>
+            <td style="text-align: center;">
+                <input style="text-align: center;" type="radio" name="rd"><br>4
+            </td>
+        </tr>
+        <tr>
+            <td>You would recommend our product to a friend or coworker.</td>
+            <td style="text-align: center;">
+                <input type="radio" name="rd"><br>1
+            </td>
+            <td style="text-align: center;">
+                <input type="radio" name="rd"><br>2
+            </td>
+            <td style="text-align: center;">
+                <input type="radio" name="rd"><br>3
+            </td>
+            <td style="text-align: center;">
+                <input type="radio" name="rd"><br>4
+            </td>
+        </tr>
+    </table>
+
+</form>
+</body>
+</html>
